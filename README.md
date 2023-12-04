@@ -1,3 +1,4 @@
+
 # Tutorial de Git e Github na prática
 
 # Instalação do git
@@ -90,5 +91,7 @@ verifique qual branch no Github está como `default`, pois o **projeto clonado s
 * E se o desenvolvedor, ao digitar novos códigos em seu computador de casa e enviá-los para o repositório remoto, perceber ao chegar no trabalho que o projeto na máquina do escritório está desatualizado?
 
 * Para puxar **todas as alterações realizadas do repositório remoto (Github) para o seu repositório local**, digite `git pull`
+
+* testando na pratica o git pull
 
 
