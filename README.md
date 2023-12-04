@@ -1,9 +1,10 @@
 # Tutorial de Git e Github na prática
 
-
+# Instalação do git
 * [Link com downloads](https://git-scm.com/downloads)
 
-## Versionamento local do projeto 
+## Versionamento local do projeto
+
 * Acesse a pasta na qual o projeto está armazenado
 * Clique com o botão direito do mouse e selecione **Open Git Bash here**
 * Digite `git init` para inicializar o repositório
@@ -67,12 +68,17 @@ O sinal verde `+` representa o que foi adicionado/modificado no versionamento, e
 
 ## Merge
 
-* Ao retornar para a branch `main`, digite `git merge <nome da nova branch>` (no exemplo acima, seria a branch chamada novoBotao), desse 
-* modo será possível **unificar a branch alternativa e a branch principal em uma só**
+* Ao retornar para a branch `main`, digite `git merge <nome da nova branch>` (no exemplo acima seria a branch chamada novoBotao), desse modo será possível **unificar a branch alternativa e a branch principal em uma só**
 
-*Assim, tudo o que tinha de alteração na branch novoBotao (por exemplo) se juntara a branch `main`
+* Assim, tudo o que tinha de alteração na branch novoBotao (por exemplo) se juntará à branch `main`
 
-*Para finalizar digite `git push origin main` e suba os arquivos para a branch principal do repositorio remoto.
+* Para finalizar digite `git push origin main` e suba os arquivos para a branch principal do repositório remoto
+  
+## Clone
+
+* Para fazer o download de um repositório remoto, seu ou de outro usuário, há duas opções:
+* 1ª opção: clicar no botão `Code` que se encontra no próprio Github, conforme a imagem abaixo
+  <img src="./img/imgClone.PNG">
 
 
 
